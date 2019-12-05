@@ -243,7 +243,7 @@ form {
 
 
 
-@media only screen and (min-width: 480px) and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .content-container {
     width: 80%;
     margin: 5%;
@@ -254,15 +254,15 @@ form {
   }
 
   .content-container h2{
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .content-container p{
-    font-size: 1em;
+    font-size: 0.75em;
   }
 
   .content-container p a{
-    font-size: 1em;
+    font-size: 0.75em;
   }
 
   .gallery-content-container {
