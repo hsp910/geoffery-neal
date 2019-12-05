@@ -16,7 +16,7 @@ html {
 
 header {  
   display:block;
-  background: darkgreen;
+  background: #388C59;
   height: 65px;
 }
 
@@ -31,7 +31,7 @@ footer {
   height: 80px;
   padding: 25px 0 5px 0;
   text-align: center; 
-  background: darkgreen;
+  background: #388C59;
   color: #A8AA94;
 }
 footer a {
@@ -42,7 +42,7 @@ footer a {
   display: block;
   width: 100%;
   height: 44px;
-  background-color: darkgreen;
+  background-color: #388C59;
   margin: 0 0 0 0;
   border: 1px solid #000000;
 }
@@ -51,7 +51,7 @@ nav {
   width: 100%;
   height: 44px;
   padding: 0 0 0 4px;
-  color: darkgreen;
+  color: #388C59;
 } 
 
 ul {  
@@ -80,7 +80,7 @@ ul.sf-menu,ul.sf-menu * {
 
 ul.sf-menu { 
   width: 100%;
-  background: darkgreen;
+  background: #388C59;
   display: block;
   position: relative;
 }
@@ -128,7 +128,7 @@ ul#nav {
 }
 
 ul#nav ul { 
-    background:darkgreen;
+    background: #388C59;
     margin-top: 0;
     border: 1px solid #ddd;
   }
@@ -136,7 +136,7 @@ ul#nav ul {
   ul#nav li a { 
     padding:9px 25px 10px 25px;
     font: 155%;
-    text-shadow: 1px 1px #444;
+    text-shadow: 1px 1px #707070;
     text-decoration:none;
     color: #fff;
   }
@@ -146,7 +146,7 @@ ul#nav ul {
   }
   
   ul#nav li a:hover, ul#nav li a:focus, ul#nav li.selected { 
-    background: lightgreen;
+    background: rgba(56, 140, 89, 0.5);
   }
 
   ul#nav ul li.list-right{
@@ -162,7 +162,7 @@ ul#nav ul {
   
   .content-container{
     display: inline-flex;
-    border: 1px solid #000000;
+    border: 5px solid #388C59;
     width: 40%;
     height: 450px;
     margin: 50px;
