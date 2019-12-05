@@ -173,7 +173,7 @@ ul#nav ul li.list-right {
   border-radius: 0px 30px;
   border: 5px solid #388C59;
   width: 40%;
-  height: 300px;
+  height: 230px;
   margin: 25px;
   padding: 10px;
   text-align: center;
@@ -202,13 +202,14 @@ ul#nav ul li.list-right {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 480px) and (max-width: 800px) {
   .content-container {
     width: 80%;
     margin: 5%;
     padding: 2%;
-    height: 250px;
+    height: 30%;
     border: 3px solid #388C59;
+    border-radius: 0 50px;
   }
 
   .content-container h2{
@@ -218,4 +219,20 @@ ul#nav ul li.list-right {
   .content-container p{
     font-size: 1em;
   }
+
+  .content-container p a{
+    font-size: 1em;
+  }
+
+  #nav_menu {
+    display: none;
+  }
+
+  #slicknav_menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  
 }

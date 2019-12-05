@@ -12,6 +12,14 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#nav_menu").slicknav({
+                prependTo: "#mobilemenu"
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -19,23 +27,24 @@
         <header class="container-fluid">
             <h1 class="header-text">Geoffry Neal</h1>
         </header>
-        <div class="bubble-banner"><img src=images/bubble.bob width="100%" height="300px"
-                alt="Big Mushroom"></img>
+        <div class="bubble-banner"><img src=images/bubble.bob width="100%" height="300px" alt="Big Mushroom"></img>
         </div>
-        <nav>
-            <div id="menu-container">
-                <ul class="sf-menu" id="nav">
-                    <li class="selected"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="bubbles.html">Bubbles</a>
-                        <ul>
-                            <li><a href="products.html">Products</a></li>
-                        </ul>
-                    </li>
-                    <li class="list-right"><a href="contact.html">Contact Me</a></li>
-                </ul>
-            </div>
+        <nav id="mobilemenu">
+            <nav id="nav_menu">
+                <div id="menu-container">
+                    <ul class="sf-menu" id="nav">
+                        <li class="selected"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="bubbles.html">Bubbles</a>
+                            <ul>
+                                <li><a href="products.html">Products</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-right"><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
         </nav>
         <div class="d-flex justify-content-center flex-wrap">
             <div class="content-container">
