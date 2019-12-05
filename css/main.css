@@ -207,6 +207,20 @@ ul#nav ul li.list-right {
 .content-container h3 a:hover {
   text-decoration: none;
 }
+.gallery-content-container {
+  display: inline-flex;
+  flex-direction: column;
+  border: 5px solid #388C59;
+  width: 40%;
+  height: 300px;
+  margin: 12px;
+  text-align: center;
+}
+.gallery-content-container img{
+  height: 100%;
+  widows: 100%;
+}
+
 
 @media only screen and (max-width: 800px) {
   .content-container {
