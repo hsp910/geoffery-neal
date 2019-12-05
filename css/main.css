@@ -180,7 +180,7 @@ ul#nav ul li.list-right {
 }
 
 .about-pic{
-  display: inline-flex;
+
   flex-direction: column;
   width: 40%;
   height: 250px;
@@ -194,6 +194,9 @@ ul#nav ul li.list-right {
 
 .about-pic {
   float: left;
+}
+.about-pic img{
+  width: 345px;
 }
 .content-container h2 a {
   color: #000000;
