@@ -12,9 +12,14 @@ html {
   padding: 0;
 }
 
+#mobilemenu {
+  display:none;
+}
+
 header {
   display: block;
   background: #388C59;
+  width: 100%;
   height: 50px;
 }
 
@@ -224,9 +229,18 @@ ul#nav ul li.list-right {
   widows: 100%;
 }
 
+.fix-bootstrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 form {
   padding: 75px;
 }
+
 
 
 @media only screen and (min-width: 480px) and (max-width: 800px) {
@@ -269,7 +283,18 @@ form {
 }
 
 @media only screen and (max-width: 480px) {
-  
+  #nav_menu {
+    display: none;
+  }
+
+  .content-container {
+    width: 80%;
+    margin: 2%;
+    padding: 2%;
+    height: 30%;
+    border: 3px solid #388C59;
+    border-radius: 0 50px;
+  }
 }
 
 
