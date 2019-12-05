@@ -180,6 +180,17 @@ ul#nav ul li.list-right {
   text-align: center;
 }
 
+.about-pic{
+  display: inline-flex;
+  flex-direction: column;
+  width: 40%;
+  height: 250px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+
 .content-container h2 a {
   color: #000000;
 }
