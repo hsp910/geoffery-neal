@@ -1,8 +1,6 @@
-@font-face {
-  font-family: calibri, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  src: url("https://use.typekit.net/tgr1yqp.css");
+body {
+  font-family: 'Oswald', sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
 }
 
 html {
