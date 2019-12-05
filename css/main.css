@@ -234,6 +234,11 @@ ul#nav ul li.list-right {
   justify-content: center;
 }
 
+form {
+  padding: 75px;
+}
+
+
 
 @media only screen and (min-width: 480px) and (max-width: 800px) {
   .content-container {
