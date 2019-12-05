@@ -279,19 +279,4 @@ form {
   }
 }
 
-@media only screen and (max-width: 480px) {
-  #nav_menu {
-    display: none;
-  }
-
-  .content-container {
-    width: 80%;
-    margin: 2%;
-    padding: 2%;
-    height: 30%;
-    border: 3px solid #388C59;
-    border-radius: 0 50px;
-  }
-}
-
 
