@@ -238,4 +238,12 @@ ul#nav ul li.list-right {
   .content-container p{
     font-size: 1em;
   }
+  .gallery-content-container {
+    border: 5px solid #388C59;
+    width: 75%;
+    height: 275px;
+    margin: 5px;
+    text-align: center;
+  }
 }
+
