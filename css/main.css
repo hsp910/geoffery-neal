@@ -185,24 +185,18 @@ ul#nav ul li.list-right {
 }
 
 .about-pic{
-
+  display: inline-flex;
   flex-direction: column;
+  border: 5px solid #388C59;
   width: 40%;
-  height: 250px;
-  margin: 20px;
-  padding: 10px;
+  height: 300px;
+  margin: 12px;
   text-align: center;
 }
 .para{
   float: right;
 }
 
-.about-pic {
-  float: left;
-}
-.about-pic img{
-  width: 345px;
-}
 .content-container h2 a {
   color: #000000;
 }
@@ -273,12 +267,22 @@ form {
     text-align: center;
   }
 
+  .about-pic{
+    width: 80%;
+    height: 200px;
+  }
+
   #nav_menu {
     display: none;
   }
 
   #slicknav_menu {
     display: block;
+  }
+  .about-pic{
+    width: 80%;
+    height: 40%;
+  
   }
 }
 
