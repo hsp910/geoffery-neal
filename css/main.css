@@ -54,10 +54,19 @@ footer a {
   border: 1px solid #000000;
 }
 
-nav {
+nav.nav_menu {
   width: 100%;
   height: 44px;
   color: #388C59;
+}
+
+.menu-container{
+  display: block;
+  width: 100%;
+  height: 44px;
+  background-color: #388C59;
+  margin: 0 0 0 0;
+  border: 1px solid #000000;
 }
 
 ul {
@@ -128,8 +137,7 @@ ul.sf-menu li:hover ul,
 ul.sf-menu li:focus ul,
 ul.sf-menu li.sf-hover ul,
 ul.sf-menu ul li:hover ul,
-ul.sf-menu ul li:focus ul,
-ul.sf-menu ul li.sf-hover ul {
+ul.sf-menu ul li:focus ul {
   left: auto;
 }
 
@@ -237,13 +245,23 @@ ul#nav ul li.list-right {
   justify-content: center;
 }
 
+.mushroom-banner {
+  width: 100%;
+  height: 300px;
+}
+
+.mushroom-banner img{
+  width: 100%;
+  height: 100%;
+}
+
 form {
   padding: 75px;
 }
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .content-container {
     width: 80%;
     margin: 5%;
@@ -265,6 +283,24 @@ form {
     font-size: 0.75em;
   }
 
+  .header-text{
+    font-size: 3 em;
+  }
+
+  ul {
+    margin: 0.5% 0 5.5% 4%;
+  }
+
+  ul li{
+    border : 1px solid #707070;
+    line-height: 0.75em;
+    padding: 0 0 2% 2.5%;
+  }
+
+  ul li a{
+    font-size: 0.5em;
+  }
+
   .gallery-content-container {
     border: 5px solid #388C59;
     width: 75%;
@@ -277,14 +313,7 @@ form {
     width: 80%;
     height: 200px;
   }
-
-  #nav_menu {
-    display: none;
-  }
-
-  #slicknav_menu {
-    display: block;
-  }
+  
   .about-pic{
     width: 80%;
     height: 40%;
