@@ -232,6 +232,24 @@ ul#nav ul li.list-right {
   margin: 12px;
   text-align: center;
 }
+
+.round-box{
+  display: inline-flex;
+  flex-direction: column;
+  border: 5px solid #388C59;
+  width: 300px;
+  height: 300px;
+  margin: 12px;
+  text-align: center;
+}
+
+.round-box div {
+  text-align: center;
+  padding: 50px;
+  color: #388C59;
+  font-size: x-large;
+}
+
 .gallery-content-container img{
   height: 100%;
   widows: 100%;
